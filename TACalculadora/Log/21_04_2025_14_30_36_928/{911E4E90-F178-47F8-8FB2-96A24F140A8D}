@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object bottom" type="I" value="423"/>
+					<Prp name="click point y" type="I" value="408"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Quatro"/>
+					<Prp name="datetime" type="D" value="45768.7220138889"/>
+					<Prp name="click point x" type="I" value="112"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi944631156179647.png"/>
+					<Prp name="object top" type="I" value="372"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="117"/>
+					<Prp name="object left" type="I" value="12"/>
+				</Node>
+				<Node name="current">
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object bottom" type="I" value="423"/>
+					<Prp name="click point y" type="I" value="397"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Quatro"/>
+					<Prp name="datetime" type="D" value="45768.7296316088"/>
+					<Prp name="click point x" type="I" value="64"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object top" type="I" value="372"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="117"/>
+					<Prp name="object left" type="I" value="12"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (52, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Quatro&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Teclado_numérico&quot;).UIAObject(&quot;Quatro&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45768.6046322106"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="object bottom" type="I" value="317"/>
+					<Prp name="click point y" type="I" value="291"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Dividir_por"/>
+					<Prp name="datetime" type="D" value="45768.7296455903"/>
+					<Prp name="click point x" type="I" value="386"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="object top" type="I" value="266"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="439"/>
+					<Prp name="object left" type="I" value="334"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="27"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (52, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Dividir_por&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Operadores_padrão&quot;).UIAObject(&quot;Dividir_por&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45768.60464625"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="29"/>
+					<Prp name="object bottom" type="I" value="423"/>
+					<Prp name="click point y" type="I" value="397"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Menos"/>
+					<Prp name="datetime" type="D" value="45768.7296497222"/>
+					<Prp name="click point x" type="I" value="386"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="object top" type="I" value="372"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="439"/>
+					<Prp name="object left" type="I" value="334"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (52, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Menos&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Operadores_padrão&quot;).UIAObject(&quot;Menos&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45768.6046502662"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="The process ID is 14484."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The application &quot;C:\Windows\System32\calc.exe&quot; started."/>
+			<Prp name="date" type="D" value="45768.6046034259"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="object bottom" type="I" value="370"/>
+					<Prp name="click point y" type="I" value="355"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Sete"/>
+					<Prp name="datetime" type="D" value="45768.7220486111"/>
+					<Prp name="click point x" type="I" value="93"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi9446339371796413.png"/>
+					<Prp name="object top" type="I" value="319"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="117"/>
+					<Prp name="object left" type="I" value="12"/>
+				</Node>
+				<Node name="current">
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="object bottom" type="I" value="370"/>
+					<Prp name="click point y" type="I" value="344"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Sete"/>
+					<Prp name="datetime" type="D" value="45768.7296380671"/>
+					<Prp name="click point x" type="I" value="64"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="object top" type="I" value="319"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="117"/>
+					<Prp name="object left" type="I" value="12"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage7_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (52, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Sete&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Teclado_numérico&quot;).UIAObject(&quot;Sete&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45768.6046394213"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="object bottom" type="I" value="423"/>
+					<Prp name="click point y" type="I" value="407"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Seis"/>
+					<Prp name="datetime" type="D" value="45768.722037037"/>
+					<Prp name="click point x" type="I" value="243"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi9446329061796411.png"/>
+					<Prp name="object top" type="I" value="372"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="332"/>
+					<Prp name="object left" type="I" value="227"/>
+				</Node>
+				<Node name="current">
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="object bottom" type="I" value="423"/>
+					<Prp name="click point y" type="I" value="397"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Seis"/>
+					<Prp name="datetime" type="D" value="45768.7296359143"/>
+					<Prp name="click point x" type="I" value="279"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object top" type="I" value="372"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="332"/>
+					<Prp name="object left" type="I" value="227"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage6_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (52, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Seis&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Teclado_numérico&quot;).UIAObject(&quot;Seis&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45768.6046364931"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{216962A2-0070-4476-BC96-FE89F0BFC4F5}"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="object bottom" type="I" value="370"/>
+					<Prp name="click point y" type="I" value="355"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Oito"/>
+					<Prp name="datetime" type="D" value="45768.7220486111"/>
+					<Prp name="click point x" type="I" value="149"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi9446347651796415.png"/>
+					<Prp name="object top" type="I" value="319"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="225"/>
+					<Prp name="object left" type="I" value="119"/>
+				</Node>
+				<Node name="current">
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="object bottom" type="I" value="370"/>
+					<Prp name="click point y" type="I" value="344"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Oito"/>
+					<Prp name="datetime" type="D" value="45768.7296409838"/>
+					<Prp name="click point x" type="I" value="172"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="object top" type="I" value="319"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="225"/>
+					<Prp name="object left" type="I" value="119"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage8_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (53, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Oito&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Teclado_numérico&quot;).UIAObject(&quot;Oito&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45768.6046417824"/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="33"/>
+					<Prp name="object bottom" type="I" value="264"/>
+					<Prp name="click point y" type="I" value="238"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Controles_de_exibi_o.Limpar_entrada"/>
+					<Prp name="datetime" type="D" value="45768.7296547338"/>
+					<Prp name="click point x" type="I" value="171"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="object top" type="I" value="213"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="224"/>
+					<Prp name="object left" type="I" value="119"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="33"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (52, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Controles_de_exibi_o.Limpar_entrada&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Controles_de_exibição&quot;).UIAObject(&quot;Limpar_entrada&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45768.6046553125"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="object bottom" type="I" value="476"/>
+					<Prp name="click point y" type="I" value="460"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Um"/>
+					<Prp name="datetime" type="D" value="45768.7219791667"/>
+					<Prp name="click point x" type="I" value="104"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi944628187179641.png"/>
+					<Prp name="object top" type="I" value="425"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="117"/>
+					<Prp name="object left" type="I" value="12"/>
+				</Node>
+				<Node name="current">
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="object bottom" type="I" value="476"/>
+					<Prp name="click point y" type="I" value="450"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Um"/>
+					<Prp name="datetime" type="D" value="45768.7296246181"/>
+					<Prp name="click point x" type="I" value="64"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object top" type="I" value="425"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="117"/>
+					<Prp name="object left" type="I" value="12"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (52, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Um&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Teclado_numérico&quot;).UIAObject(&quot;Um&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45768.6046259144"/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="28"/>
+					<Prp name="object bottom" type="I" value="370"/>
+					<Prp name="click point y" type="I" value="344"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Multiplicar_por"/>
+					<Prp name="datetime" type="D" value="45768.7296476273"/>
+					<Prp name="click point x" type="I" value="386"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="object top" type="I" value="319"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="439"/>
+					<Prp name="object left" type="I" value="334"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="28"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (52, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Multiplicar_por&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Operadores_padrão&quot;).UIAObject(&quot;Multiplicar_por&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45768.6046482407"/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="object bottom" type="I" value="476"/>
+					<Prp name="click point y" type="I" value="450"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Mais"/>
+					<Prp name="datetime" type="D" value="45768.7296519907"/>
+					<Prp name="click point x" type="I" value="386"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="object top" type="I" value="425"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="439"/>
+					<Prp name="object left" type="I" value="334"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (52, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Mais&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Operadores_padrão&quot;).UIAObject(&quot;Mais&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45768.6046530324"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="line #" type="I" value="24"/>
+					<Prp name="object bottom" type="I" value="370"/>
+					<Prp name="click point y" type="I" value="353"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Nove"/>
+					<Prp name="datetime" type="D" value="45768.7220601852"/>
+					<Prp name="click point x" type="I" value="253"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi9446357031796417.png"/>
+					<Prp name="object top" type="I" value="319"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="332"/>
+					<Prp name="object left" type="I" value="227"/>
+				</Node>
+				<Node name="current">
+					<Prp name="line #" type="I" value="24"/>
+					<Prp name="object bottom" type="I" value="370"/>
+					<Prp name="click point y" type="I" value="344"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Nove"/>
+					<Prp name="datetime" type="D" value="45768.7296433333"/>
+					<Prp name="click point x" type="I" value="279"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="object top" type="I" value="319"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="332"/>
+					<Prp name="object left" type="I" value="227"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="line #" type="I" value="24"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage9_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="24"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (52, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Nove&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Teclado_numérico&quot;).UIAObject(&quot;Nove&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45768.6046439236"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="object bottom" type="I" value="529"/>
+					<Prp name="click point y" type="I" value="503"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Zero"/>
+					<Prp name="datetime" type="D" value="45768.7296218519"/>
+					<Prp name="click point x" type="I" value="172"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object top" type="I" value="478"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="225"/>
+					<Prp name="object left" type="I" value="119"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (53, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Zero&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Teclado_numérico&quot;).UIAObject(&quot;Zero&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45768.604622963"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="rodando a calculadora"/>
+			<Prp name="date" type="D" value="45768.6046019444"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="object bottom" type="I" value="423"/>
+					<Prp name="click point y" type="I" value="409"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Cinco"/>
+					<Prp name="datetime" type="D" value="45768.722025463"/>
+					<Prp name="click point x" type="I" value="133"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi944631921179649.png"/>
+					<Prp name="object top" type="I" value="372"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="225"/>
+					<Prp name="object left" type="I" value="119"/>
+				</Node>
+				<Node name="current">
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="object bottom" type="I" value="423"/>
+					<Prp name="click point y" type="I" value="397"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Cinco"/>
+					<Prp name="datetime" type="D" value="45768.7296337847"/>
+					<Prp name="click point x" type="I" value="172"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object top" type="I" value="372"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="225"/>
+					<Prp name="object left" type="I" value="119"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (53, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Cinco&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Teclado_numérico&quot;).UIAObject(&quot;Cinco&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45768.6046343519"/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="object bottom" type="I" value="529"/>
+					<Prp name="click point y" type="I" value="503"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Igual_a"/>
+					<Prp name="datetime" type="D" value="45768.7296566667"/>
+					<Prp name="click point x" type="I" value="386"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="object top" type="I" value="478"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="439"/>
+					<Prp name="object left" type="I" value="334"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (52, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Igual_a&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Operadores_padrão&quot;).UIAObject(&quot;Igual_a&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45768.6046572917"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="object bottom" type="I" value="476"/>
+					<Prp name="click point y" type="I" value="458"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Tr_s"/>
+					<Prp name="datetime" type="D" value="45768.7220023148"/>
+					<Prp name="click point x" type="I" value="244"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi944630078179645.png"/>
+					<Prp name="object top" type="I" value="425"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="332"/>
+					<Prp name="object left" type="I" value="227"/>
+				</Node>
+				<Node name="current">
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="object bottom" type="I" value="476"/>
+					<Prp name="click point y" type="I" value="450"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Tr_s"/>
+					<Prp name="datetime" type="D" value="45768.7296297454"/>
+					<Prp name="click point x" type="I" value="279"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object top" type="I" value="425"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="332"/>
+					<Prp name="object left" type="I" value="227"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (52, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Tr_s&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Teclado_numérico&quot;).UIAObject(&quot;Três&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45768.6046301852"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object bottom" type="I" value="476"/>
+					<Prp name="click point y" type="I" value="459"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Dois"/>
+					<Prp name="datetime" type="D" value="45768.7219907407"/>
+					<Prp name="click point x" type="I" value="192"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi944629125179643.png"/>
+					<Prp name="object top" type="I" value="425"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="225"/>
+					<Prp name="object left" type="I" value="119"/>
+				</Node>
+				<Node name="current">
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object bottom" type="I" value="476"/>
+					<Prp name="click point y" type="I" value="450"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Dois"/>
+					<Prp name="datetime" type="D" value="45768.7296272801"/>
+					<Prp name="click point x" type="I" value="172"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object top" type="I" value="425"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="225"/>
+					<Prp name="object left" type="I" value="119"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (53, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Dois&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Teclado_numérico&quot;).UIAObject(&quot;Dois&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45768.6046280556"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

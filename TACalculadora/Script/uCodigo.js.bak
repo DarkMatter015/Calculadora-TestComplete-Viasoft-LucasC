@@ -1,0 +1,106 @@
+﻿function garantirCalculadoraAberta() {
+  const calcAlias = Aliases.Microsoft_WindowsCalculator;
+  
+  if (!Sys.WaitProcess("Microsoft.WindowsCalculator", 2000).Exists) {
+    Log.Message("Iniciando a calculadora...");
+    TestedApps.calc.Run();
+    calcAlias.WaitAliasChild("Calculadora", 5000); // Espera até 5 segundos
+  } else {
+    Log.Message("✅ Calculadora já está aberta.");
+  }
+}
+
+function pressionarBotao(botao) {
+  
+  Log.AppendFolder("Botão: " + botao);
+
+  const numeros = Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico;
+  const operacoes = Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o;
+  const controles = Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Controles_de_exibi_o;
+  const operacoesPadrao = Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o;
+
+  const mapapressionarBotao = {
+    ",": () => numeros.Separador_decimal.Click(),
+    "0": () => numeros.Zero.Click(),
+    "1": () => numeros.Um.Click(),
+    "2": () => numeros.Dois.Click(),
+    "3": () => numeros.Tr_s.Click(),
+    "4": () => numeros.Quatro.Click(),
+    "5": () => numeros.Cinco.Click(),
+    "6": () => numeros.Seis.Click(),
+    "7": () => numeros.Sete.Click(),
+    "8": () => numeros.Oito.Click(),
+    "9": () => numeros.Nove.Click(),
+    "+": () => operacoes.Mais.Click(),
+    "-": () => operacoes.Menos.Click(),
+    "*": () => operacoes.Multiplicar_por.Click(),
+    "/": () => operacoes.Dividir_por.Click(),
+    "CE": () => controles.Limpar_entrada.Click(),
+    "=": () => operacoesPadrao.Igual_a.Click()
+  };
+
+  if (mapapressionarBotao[botao]) {
+    mapapressionarBotao[botao]();
+  } else {
+    Log.Error("Botão não mapeado: " + botao);
+  }
+
+  Log.PopLogFolder();
+}
+
+
+function verificarResultado(resultadoEsperado) {
+  const resultadoObtido = Aliases.Microsoft_WindowsCalculator
+    .Calculadora.NavView.LandmarkTarget
+    .UIAObject("A_exibição_é_*")
+    .UIAObject("TextContainer")
+    .UIAObject("NormalOutput").Text.trim();
+
+  if (resultadoEsperado.trim() === resultadoObtido) {
+    Log.Message("✅ SUCESSO! Resultado correto: " + resultadoObtido);
+  } else {
+    Log.Error("❌ ERRO! Esperado: " + resultadoEsperado + " | Obtido: " + resultadoObtido);
+  }
+}
+
+function calcular(expressaoCompleta) {
+  Log.AppendFolder("Cálculo: " + expressaoCompleta);
+
+  let posResultado = expressaoCompleta.indexOf("=");
+
+  if (posResultado === -1) {
+    Log.Error("Expressão inválida: '=' não encontrado.");
+    Log.PopLogFolder();
+    return;
+  }
+
+  let operacao = expressaoCompleta.slice(0, posResultado + 1); // pega todos os caracteres até o sinal de = incluindo ele
+  let resultadoEsperado = expressaoCompleta.slice(posResultado + 1); // Ex: pega somente o resultado da operação (depois do sinal de =)
+
+  for (let i = 0; i < operacao.length; i++) {
+    pressionarBotao(operacao[i]);
+  }
+
+  verificarResultado(resultadoEsperado);
+  Log.PopLogFolder();
+}
+
+
+function executarTestes() {
+  garantirCalculadoraAberta();
+  pressionarBotao("CE");
+
+  const testes = [
+    "2+2=4",
+    "1*0=0",
+    "9-5=4",
+    "6/3=2"
+  ];
+
+  for (let i = 0; i < testes.length; i++) {
+    calcular(testes[i]);
+  }
+}
+
+
+module.exports.garantirCalculadoraAberta = garantirCalculadoraAberta;

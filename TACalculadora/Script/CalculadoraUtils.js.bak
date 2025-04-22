@@ -1,0 +1,150 @@
+﻿function garantirCalculadoraAberta() {
+  const calcAlias = Aliases.Microsoft_WindowsCalculator;
+  
+  if (!Sys.WaitProcess("Microsoft.WindowsCalculator", 1000).Exists) {
+    Log.Message("Iniciando a calculadora...");
+    TestedApps.calc.Run();
+    calcAlias.WaitAliasChild("Calculadora", 1000);
+  } else {
+    Log.Message("✅ Calculadora já está aberta.");
+    pressionarBotao("CA"); // limpa tudo caso tenha um 9 + já digitado por exemplo
+  }
+}
+
+function pressionarBotao(botao) {
+  Log.AppendFolder("Botão: " + botao);
+  const calc = Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget;
+  if (!calc.Exists) {
+    Log.Error("Calculadora não encontrada!");
+    Log.PopLogFolder();
+    return;
+  }
+
+  const numeros = calc.Teclado_num_rico;
+  const operacoes = calc.Operadores_padr_o;
+  const controles = calc.Controles_de_exibi_o;
+
+  const mapeamentoBotoes = {
+    ",": () => numeros.Separador_decimal.Click(),
+    "0": () => numeros.Zero.Click(),
+    "1": () => numeros.Um.Click(),
+    "2": () => numeros.Dois.Click(),
+    "3": () => numeros.Tr_s.Click(),
+    "4": () => numeros.Quatro.Click(),
+    "5": () => numeros.Cinco.Click(),
+    "6": () => numeros.Seis.Click(),
+    "7": () => numeros.Sete.Click(),
+    "8": () => numeros.Oito.Click(),
+    "9": () => numeros.Nove.Click(),
+    "+": () => operacoes.Mais.Click(),
+    "-": () => operacoes.Menos.Click(),
+    "*": () => operacoes.Multiplicar_por.Click(),
+    "/": () => operacoes.Dividir_por.Click(),
+    "CE": () => controles.Limpar_entrada.Click(),
+    "CA": () => controles.UIAObject("Limpar").Click(),
+    "=": () => operacoes.Igual_a.Click()
+  };
+
+  if (mapeamentoBotoes[botao]) {
+    mapeamentoBotoes[botao]();
+  } else {
+    Log.Error("Botão não mapeado: " + botao);
+  }
+  
+  Log.PopLogFolder();
+}
+
+//function verificarResultado(resultadoEsperado) {
+//    const resultadoObtido = Aliases.Microsoft_WindowsCalculator
+//    .Calculadora.NavView.LandmarkTarget
+//    .UIAObject("A_exibição_é_*") // mapeamento de qualquer texto
+//    .UIAObject("TextContainer")
+//    .UIAObject("NormalOutput").Text.trim();
+//
+//  if (resultadoEsperado == resultadoObtido) {
+//    Log.Message("✅ SUCESSO! Resultado correto: " + resultadoObtido);
+//  } else {
+//    Log.Error("❌ ERRO! Esperado: " + resultadoEsperado + " | Obtido: " + resultadoObtido);
+//  }
+//}
+function verificarResultado(resultadoEsperado) {
+  const calc = Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget;
+  if (!calc.Exists) {
+    Log.Error("Calculadora não encontrada para verificar resultado!");
+    return;
+  }
+
+  const display = calc.UIAObject("A_exibição_é_*");
+  if (!display.Exists) {
+    Log.Error("Nenhum texto de resultado ou erro encontrado na calculadora!");
+    Log.Picture(Sys.Desktop.Picture(), "Captura de tela para depuração");
+    return;
+  }
+
+  let resultadoObtido = "";
+  if (display.Name === "A_exibição_é_Não_é_possível_dividir_por_zero") {
+    const errorText = display.UIAObject("Não_é_possível_dividir_por_zero").UIAObject("Não_é_possível_dividir_por_zero");
+    resultadoObtido = errorText.NativeUIAObject.Value.trim();
+  } else {
+    resultadoObtido = display.Text.trim();
+  }
+
+  const esperadoNormalizado = resultadoEsperado.trim();
+  if (esperadoNormalizado === resultadoObtido) {
+    Log.Message("✅ SUCESSO! Resultado correto: " + resultadoObtido);
+  } else {
+    Log.Error("❌ ERRO! Esperado: " + esperadoNormalizado + " | Obtido: " + resultadoObtido);
+    Log.Picture(Sys.Desktop.Picture(), "Captura de tela no momento do erro");
+  }
+}
+
+function calcular(expressaoCompleta) {
+  if (!expressaoCompleta || typeof expressaoCompleta !== "string") {
+    Log.Error("Expressão inválida: entrada nula ou não é string.");
+    return;
+  }
+  
+  Log.AppendFolder("Cálculo: " + expressaoCompleta);
+
+  let posResultado = expressaoCompleta.indexOf("=");
+  if (posResultado === -1) {
+    Log.Error("Expressão inválida: '=' não encontrado.");
+    Log.PopLogFolder();
+    return;
+  }
+
+  let operacao = expressaoCompleta.slice(0, posResultado + 1);
+  let resultadoEsperado = expressaoCompleta.slice(posResultado + 1);
+
+  pressionarBotao("CE");
+  for (let i = 0; i < operacao.length; i++) {
+    pressionarBotao(operacao[i]);
+  }
+
+  verificarResultado(resultadoEsperado);
+  Log.PopLogFolder();
+}
+
+
+function executarTestes() {
+  garantirCalculadoraAberta();
+  pressionarBotao("CE");
+
+  const testes = [
+    "2+2=4",
+    "1*0=0",
+    "9-5=4",
+    "6/3=2"
+  ];
+
+  for (let i = 0; i < testes.length; i++) {
+    calcular(testes[i]);
+  }
+}
+
+module.exports = {
+  garantirCalculadoraAberta,
+  pressionarBotao,
+  verificarResultado,
+  calcular
+};

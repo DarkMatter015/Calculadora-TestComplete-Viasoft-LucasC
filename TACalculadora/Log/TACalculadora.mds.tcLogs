@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8070741088"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7BA5409C-D2C3-42F9-B000-B6CF83C65BF4}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [CalculadoraScripts\testarErros]"/>
+				<Prp name="relpath" type="S" value="21_04_2025_19_22_11_204\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8144139699"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D9EFF2D5-8BFB-4262-949D-C7E47507BEFF}"/>
+				<Prp name="nameofroot" type="S" value="calculadora"/>
+				<Prp name="relpath" type="S" value="21_04_2025_19_32_45_367\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8201715162"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7355269E-BCA7-497D-A2FE-7DE54AC81DD7}"/>
+				<Prp name="nameofroot" type="S" value="Realizar adição de dois números"/>
+				<Prp name="relpath" type="S" value="21_04_2025_19_41_02_819\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8235383449"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{28EECD07-AE09-4CBE-9780-859CAB19FE00}"/>
+				<Prp name="nameofroot" type="S" value="Realizar multiplicação de dois números com vírgula"/>
+				<Prp name="relpath" type="S" value="21_04_2025_19_45_53_713\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8265636111"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F730DC41-45BC-41B2-A7B9-541F82A99C41}"/>
+				<Prp name="nameofroot" type="S" value="Realizar adição de dois números"/>
+				<Prp name="relpath" type="S" value="21_04_2025_19_50_15_96\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8268401157"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{AB32BC6C-1C4D-45A7-A466-5CE800D5CA65}"/>
+				<Prp name="nameofroot" type="S" value="Realizar adição de dois números"/>
+				<Prp name="relpath" type="S" value="21_04_2025_19_50_38_986\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.827383588"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F1EFF6D2-BB62-4622-AE6F-1A8C246EC06D}"/>
+				<Prp name="nameofroot" type="S" value="Operação com número decimal"/>
+				<Prp name="relpath" type="S" value="21_04_2025_19_51_25_943\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8287150347"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BB3FFE11-7CB5-471C-98AF-0BC3A07E1120}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_19_53_20_979\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8296862963"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D2EC821B-ADCB-4596-A999-3A5896A234EE}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_19_54_44_896\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.830805162"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{28EC929B-A07D-40BA-84C4-07A68A61B497}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_19_56_21_566\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0010">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8311383333"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{EBA3BF3E-7A13-4F96-AFB2-2A4008018825}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_19_56_50_352\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0011">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8343329398"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6CA445EE-5A68-4501-8047-8D8026CC461B}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_01_26_366\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0012">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8354237037"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7C547920-8427-4907-B2DA-C9DAFB9A9FF9}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_03_00_608\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0013">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8368879861"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{190EC3D1-95BD-498A-A845-DA8C7310CA64}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_05_07_122\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0014">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8377180671"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{30D26676-7F2F-40ED-8C58-11ACAE345F66}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_06_18_841\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0015">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8380520486"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{DF003109-68DB-4CF4-8D56-660C3C191ED1}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_06_47_697\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0016">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8384634606"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3ADE0DFD-EF94-4080-B45E-B7E1BE81DF58}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_07_23_243\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0017">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8391328819"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3D161B1C-EF3F-4CEE-852E-46A2BEC0A24E}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_08_21_81\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0018">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8398809259"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{483B03B4-6730-457D-A241-2A29C3DF07E5}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_09_25_712\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0019">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8406325694"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{504F4788-EB95-4013-9E57-AAC449F3ED45}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [CalculadoraScripts\somar]"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_10_30_654\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0020">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8417224884"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{91D8E15E-7FF8-4120-98B7-E87C7261FA8D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [CalculadoraScripts\somar]"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_12_04_823\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0021">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8420453472"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{CCABCF74-FF8C-4844-A95D-8B3F619C939B}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [CalculadoraScripts\somar]"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_12_32_718\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0022">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8423126852"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{E674971D-FE8A-45B0-A3FE-2C7121C32AE4}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_12_55_816\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0023">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8427135648"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C222BEE9-D788-41B3-83AB-F61BAC0EC128}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_13_30_452\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0024">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8431206018"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{ED7E3CCC-34C4-4174-B6D3-6BD65C729F9E}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_14_05_620\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0025">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8435296644"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{DE5356E1-E3C9-4CD6-9C90-A878D54CB536}"/>
+				<Prp name="nameofroot" type="S" value="Subtração entre dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_14_40_963\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0026">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8440537847"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5AE13EC4-E3E1-45C1-ABE6-CA69925D25E3}"/>
+				<Prp name="nameofroot" type="S" value="Multiplicação envolvendo zero"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_15_26_247\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0027">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8449003588"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{AB8D166B-019B-4B50-A21F-16F07B6B2626}"/>
+				<Prp name="nameofroot" type="S" value="Divisão de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_16_39_391\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0028">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8452494444"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{42D1AC34-6F8D-4D80-A71E-392FE5C3AA63}"/>
+				<Prp name="nameofroot" type="S" value="Operação com número decimal"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_17_09_552\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0029">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8457035648"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C6D896F8-9D5F-44D4-B3DF-3BC5614A5DAD}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [CalculadoraScripts\todosOsTestes]"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_17_48_788\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0030">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8460503588"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F681813B-221C-4B24-B2A2-14F678B14988}"/>
+				<Prp name="nameofroot" type="S" value="Operação com número decimal"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_18_18_751\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0031">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8466716667"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{DAFDB445-7518-499F-9441-72BA97DDDAC9}"/>
+				<Prp name="nameofroot" type="S" value="Multiplicação envolvendo zero"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_19_12_432\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0032">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8476341667"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{381F3B29-E28A-485F-B4EB-8536CE5DFD5B}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_20_35_592\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0033">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8489152662"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5D80B6BD-6562-4197-92B4-77029692F7BB}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_22_26_279\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0034">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8492260417"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5450716D-6AEC-4C38-B306-3BEC8B6B5311}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_22_53_130\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0035">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8499415972"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{EA2A4B41-EAAC-4C15-AD8B-F211874B10B7}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_23_54_954\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0036">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8502376505"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{74FA22CD-6AC1-400A-8FFA-7D660586CBDB}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_24_20_533\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0037">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8504151042"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C03B215E-8E71-4514-A531-0C796EE13136}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_24_35_865\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0038">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8505776852"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0CC54DF1-FF1A-4904-9AAA-5FCB1A09C0DF}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_24_49_912\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0039">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8507790046"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{4ED79348-09B8-40AD-A510-B0C11E31C5A2}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_25_07_306\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0040">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8511697801"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3BC3E079-B420-401B-A41B-0AFBD54DDBBC}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_25_41_70\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0041">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8518166435"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0AD334A6-C09B-433E-AF8E-47923D4B86E1}"/>
+				<Prp name="nameofroot" type="S" value="Subtração entre dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_26_36_958\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0042">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8521615972"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{270ED6BC-1A4B-4EAE-82F0-52A9A5A84A59}"/>
+				<Prp name="nameofroot" type="S" value="Divisão de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_27_06_763\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0043">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.854399294"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{03678A20-97A0-4F37-BDF9-963168A60352}"/>
+				<Prp name="nameofroot" type="S" value="Divisão de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_30_20_99\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0044">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8582000463"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D2DB5A82-0AEC-4648-97AC-D3A7FF300D77}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [CalculadoraScripts\dividir]"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_35_48_484\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0045">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8653419676"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{164B5C4C-DA90-4407-874C-EB5370CBDAD9}"/>
+				<Prp name="nameofroot" type="S" value="Soma de dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_46_05_546\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0046">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8703962037"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D063430D-1704-4E67-8D66-DD4ED658E1D3}"/>
+				<Prp name="nameofroot" type="S" value="Soma com número decimal"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_53_22_232\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0047">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8717239583"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9954DD77-DF10-454F-928C-1413511DDFC0}"/>
+				<Prp name="nameofroot" type="S" value="Multiplicação entre dois números inteiros"/>
+				<Prp name="relpath" type="S" value="21_04_2025_20_55_16_950\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0048">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45768.8900645718"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A4F08920-64BB-4B49-9171-39B807B9A7FA}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [CalculadoraScripts\todosOsTestes]"/>
+				<Prp name="relpath" type="S" value="21_04_2025_21_21_41_579\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

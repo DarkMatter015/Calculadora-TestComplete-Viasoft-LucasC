@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="17276"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45768.8731625926"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBDAEEANQAwAEUANgBDADQALQBDAEMAQQA3AC0ANAA0AEEAMAAtADgANgAxAEIALQAyAEYARQBDADQAOQBBADgAMgAxADUANwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="Subtrair"/>
+						<Prp name="durationwithoutchildren" type="I" value="17276"/>
+					</Node>
+					<Node name="test9">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="14525"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45768.8744400463"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyADEANgBCADEAQgBDAEIALQA1AEIANgAyAC0ANAAzAEQANwAtAEIANQAxADIALQAyADAAMgBEAEEARAAwADAAQQAyADUANgB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwMAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="name" type="S" value="Divisão de dois números inteiros"/>
+						<Prp name="durationwithoutchildren" type="I" value="14525"/>
+					</Node>
+					<Node name="test4">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="14371"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45768.8733889931"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA4ADQAMQAzADIAQwAwAEEALQBCAEYAMQA0AC0ANAAxADMARAAtAEEAQgBDADYALQA5ADQAMwA4AEIARABCADEANQBCADEAQgB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwMAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="name" type="S" value="Subtração entre dois números inteiros"/>
+						<Prp name="durationwithoutchildren" type="I" value="14371"/>
+					</Node>
+					<Node name="test8">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="17895"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45768.8742026389"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA0ADAAMgA5ADgANAAwADUALQAzADYAMgA4AC0ANAAzADIANwAtADkARQA1ADUALQBGADUANwBEAEIANgA0ADgAOQBDADQARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="Dividir"/>
+						<Prp name="durationwithoutchildren" type="I" value="17895"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="18905"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45768.8725052315"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5ADgARgAyADMAQQBDADEALQAxADYANQBEAC0ANABFADgAMAAtADkAMAAxADgALQAzADkANQBBADMAOQBCAEQANAAxADYAOQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="Somar"/>
+						<Prp name="durationwithoutchildren" type="I" value="18905"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="15344"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45768.8729723148"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2AEQANwBCADEAMgBGAEUALQBDAEUAMwBDAC0ANABEADYAQgAtADkAQQAzAEQALQAzADMARQAzADIAQQBGADMARAA1AEUANwB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwMAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="name" type="S" value="Soma com número decimal"/>
+						<Prp name="durationwithoutchildren" type="I" value="15344"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="15390"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45768.8727532986"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBBADIAMAA3AEIAQwAxAEYALQA3ADgAQwA1AC0ANABCADAAOAAtADkAMQA4ADgALQBEADEANgBCAEEANAAxAEIANwBBAEIARAB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwMAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="name" type="S" value="Soma de dois números inteiros"/>
+						<Prp name="durationwithoutchildren" type="I" value="15390"/>
+					</Node>
+					<Node name="test6">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="14845"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45768.8738047338"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBBAEIANAA3ADEANwA2AEEALQA3ADUARQAxAC0ANAA2AEMANgAtAEEARAA1ADIALQAzADIANQA1AEUAQgBGAEQARQA2AEMAOQB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwMAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="name" type="S" value="Multiplicação envolvendo zero"/>
+						<Prp name="durationwithoutchildren" type="I" value="14845"/>
+					</Node>
+					<Node name="test7">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="14547"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45768.8740192361"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxADMAOQBBADgAMQAzAEQALQA2ADAAMgBEAC0ANAAzADUARQAtADkAMwAwAEQALQA4AEYANABEAEMAOQBDADkAMAAwAEUARAB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwMAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="name" type="S" value="Multiplicação entre dois números inteiros"/>
+						<Prp name="durationwithoutchildren" type="I" value="14547"/>
+					</Node>
+					<Node name="test5">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="18186"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45768.8735681134"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzADAARQA2AEIARgA4AEIALQBFADAANgAyAC0ANABBAEQANwAtAEIANwA0AEMALQA4ADYANQBBADIANwBGAEEAMAA0AEMAOQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="Multiplicar"/>
+						<Prp name="durationwithoutchildren" type="I" value="18186"/>
+					</Node>
+				</Node>
+				<Prp name="duration" type="I" value="161284"/>
+				<Prp name="starttime" type="D" value="45768.8725052315"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="loadtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="TACalculadora"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="key" type="S" value="{BB0B0626-A33B-4D4C-96D4-09B371726870}"/>
+		<Prp name="user" type="S" value="Lucas.M"/>
+		<Prp name="stop" type="D" value="45768.874621412"/>
+		<Prp name="loadtests" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="45768.8725041435"/>
+		<Prp name="tests" type="I" value="10"/>
+		<Prp name="host" type="S" value="LUCAS"/>
+		<Prp name="name" type="S" value="CalculadoraBDD"/>
+		<Prp name="testname" type="S" value="CalculadoraBDD"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+	</Node>
+</Nodes>

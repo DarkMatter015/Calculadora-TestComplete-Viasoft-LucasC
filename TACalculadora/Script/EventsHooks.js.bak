@@ -1,0 +1,36 @@
+﻿var CalculadoraUtils = require("CalculadoraUtils");
+var garantirCalculadoraAberta = CalculadoraUtils.garantirCalculadoraAberta;
+
+function fecharCalculadora() {
+  const processoCalc = Sys.WaitProcess("Microsoft.WindowsCalculator", 1000);
+  if (processoCalc.Exists) {
+    Log.Message("! Encerrando a calculadora.");
+    processoCalc.Terminate();
+    processoCalc.Wait(2000); // Aguarda até 2 segundos para confirmar
+  } else {
+    Log.Message("ℹ A calculadora já estava encerrada.");
+  }
+}
+
+function EventsHooks_OnStartTest(Sender) {
+  Log.Message("Iniciando o teste...");
+  garantirCalculadoraAberta();
+}
+
+function EventsHooks_OnStopTest(Sender) {
+  Log.Message("✅ Teste finalizado com sucesso.");
+  fecharCalculadora();
+}
+
+function EventsHooks_OnLogError(Sender, LogParams) {
+  Log.Error("❌ Erro durante o teste: " + LogParams.Str);
+  Log.Picture(Sys.Desktop.Picture(), "Captura de tela no momento do erro");
+  // Não fechar a calculadora para permitir continuação
+}
+
+function EventsHooks_OnUnexpectedWindow(Sender, Window, LogParams) {
+  Log.Warning("Janela inesperada detectada: " + Window.Caption);
+  Log.Picture(Window, "Captura da janela");
+  Window.Close();
+  LogParams.Locked = true; // Impede mensagens padrão
+}

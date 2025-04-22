@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row0">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="Adicão"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="45768.5748261458"/>
+				<Prp name="details" type="S" value="{7D425BCB-A1FA-4C0E-9335-476D30023E2C}"/>
+				<Prp name="start time" type="D" value="45768.5748166667"/>
+			</Node>
+			<Node name="row3">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="Divisão"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="45768.5748274421"/>
+				<Prp name="details" type="S" value="{A526293F-D6A4-43A0-B7CD-04F0D922EAE6}"/>
+				<Prp name="start time" type="D" value="45768.5748269792"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="Subtração"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="45768.5748265162"/>
+				<Prp name="details" type="S" value="{F6212032-76C3-4C44-A678-65737E7C51DC}"/>
+				<Prp name="start time" type="D" value="45768.5748261806"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="Multiplicação"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="45768.5748269676"/>
+				<Prp name="details" type="S" value="{5F8EB8CF-DAFE-4C75-BA4A-A802FFB3882E}"/>
+				<Prp name="start time" type="D" value="45768.5748265972"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

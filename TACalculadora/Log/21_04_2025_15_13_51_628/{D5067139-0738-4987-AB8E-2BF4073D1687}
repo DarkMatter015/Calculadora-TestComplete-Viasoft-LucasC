@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 0">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346341319"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Calculadora ja ta rodando"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.634647963"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="3"/>
+			<Prp name="message" type="S" value="Botao: ="/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 26">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346601968"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="16"/>
+			<Prp name="message" type="S" value="Calculadora ja ta rodando"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="386"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="425"/>
+					<Prp name="object bottom" type="I" value="476"/>
+					<Prp name="object right" type="I" value="439"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="334"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="450"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45768.7596444444"/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Mais"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="line #" type="I" value="79"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (52, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Mais&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Operadores_padrão&quot;).UIAObject(&quot;Mais&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346451736"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="79"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="8"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346459375"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="3"/>
+			<Prp name="message" type="S" value="Botao: 2"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346507755"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="16"/>
+			<Prp name="message" type="S" value="Botao: 1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="386"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="478"/>
+					<Prp name="object bottom" type="I" value="529"/>
+					<Prp name="object right" type="I" value="439"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="334"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="503"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45768.7596489931"/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Igual_a"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="line #" type="I" value="87"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (52, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Igual_a&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Operadores_padrão&quot;).UIAObject(&quot;Igual_a&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346500926"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="87"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="14"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346543634"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="16"/>
+			<Prp name="message" type="S" value="Calculadora ja ta rodando"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346479398"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="3"/>
+			<Prp name="message" type="S" value="Calculadora ja ta rodando"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346436343"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="3"/>
+			<Prp name="message" type="S" value="Calculadora ja ta rodando"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346459375"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="3"/>
+			<Prp name="message" type="S" value="Calculadora ja ta rodando"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.634640162"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="3"/>
+			<Prp name="message" type="S" value="Calculadora ja ta rodando"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 23">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346575"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="16"/>
+			<Prp name="message" type="S" value="Calculadora ja ta rodando"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346507176"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="98"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Calculo: 1*0="/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{216962A2-0070-4476-BC96-FE89F0BFC4F5}"/>
+		</Node>
+		<Node name="message 27">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346602083"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="16"/>
+			<Prp name="message" type="S" value="Botao: ="/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="171"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="213"/>
+					<Prp name="object bottom" type="I" value="264"/>
+					<Prp name="object right" type="I" value="224"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="119"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="238"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45768.7596384144"/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Controles_de_exibi_o.Limpar_entrada"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="line #" type="I" value="83"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (52, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Controles_de_exibi_o.Limpar_entrada&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Controles_de_exibição&quot;).UIAObject(&quot;Limpar_entrada&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346394676"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="83"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346436458"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="3"/>
+			<Prp name="message" type="S" value="Botao: +"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="386"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="319"/>
+					<Prp name="object bottom" type="I" value="370"/>
+					<Prp name="object right" type="I" value="439"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="334"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="344"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45768.7596560069"/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Multiplicar_por"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="line #" type="I" value="71"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (52, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Multiplicar_por&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Operadores_padrão&quot;).UIAObject(&quot;Multiplicar_por&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346567824"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="71"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="21"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 25">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="172"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="478"/>
+					<Prp name="object bottom" type="I" value="529"/>
+					<Prp name="object right" type="I" value="225"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="119"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="503"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45768.7596588657"/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Zero"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="line #" type="I" value="27"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (53, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Zero&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Teclado_numérico&quot;).UIAObject(&quot;Zero&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346594792"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="27"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="24"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.634654375"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="16"/>
+			<Prp name="message" type="S" value="Botao: *"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="64"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="425"/>
+					<Prp name="object bottom" type="I" value="476"/>
+					<Prp name="object right" type="I" value="117"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="12"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="450"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45768.7596525116"/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Um"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="line #" type="I" value="31"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (52, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Um&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Teclado_numérico&quot;).UIAObject(&quot;Um&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346536343"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="18"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346399884"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="98"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Calculo: 2+2="/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="172"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="425"/>
+					<Prp name="object bottom" type="I" value="476"/>
+					<Prp name="object right" type="I" value="225"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="119"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="450"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45768.7596421875"/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Dois"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="line #" type="I" value="35"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (53, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Dois&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Teclado_numérico&quot;).UIAObject(&quot;Dois&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346428472"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="5"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346401852"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="3"/>
+			<Prp name="message" type="S" value="Botao: 2"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="172"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="425"/>
+					<Prp name="object bottom" type="I" value="476"/>
+					<Prp name="object right" type="I" value="225"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="119"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="450"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45768.7596465046"/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Dois"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="line #" type="I" value="35"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (53, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Dois&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Teclado_numérico&quot;).UIAObject(&quot;Dois&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346472106"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="11"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 28">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point x" type="I" value="386"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="478"/>
+					<Prp name="object bottom" type="I" value="529"/>
+					<Prp name="object right" type="I" value="439"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="334"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="503"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45768.7596611111"/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Igual_a"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="line #" type="I" value="87"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (52, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Igual_a&#xA;(Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculadora&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Operadores_padrão&quot;).UIAObject(&quot;Igual_a&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346618519"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="87"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="27"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346507639"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="16"/>
+			<Prp name="message" type="S" value="Calculadora ja ta rodando"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346341551"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Botao: CE"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 24">
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45768.6346575231"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="16"/>
+			<Prp name="message" type="S" value="Botao: 0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Prp name="status" type="I" value="1"/>
+	</Node>
+</Nodes>

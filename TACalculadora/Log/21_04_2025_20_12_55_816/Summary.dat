@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="TypeError: resultadoEsperado.trim is not a function"/>
+							</Node>
+						</Node>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFADYANwBFAEMANgBCADQALQBDAEIAQwAxAC0ANAAxADUANwAtAEIAQgA0ADEALQA5ADQANwAzADcAMAA0ADIANgAzADQAMAB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwEAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="name" type="S" value="Soma de dois números inteiros"/>
+						<Prp name="starttime" type="D" value="45768.8423221991"/>
+						<Prp name="durationwithoutchildren" type="I" value="1865"/>
+						<Prp name="duration" type="I" value="1865"/>
+					</Node>
+				</Node>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="loadtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="TACalculadora"/>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="starttime" type="D" value="45768.8423221991"/>
+				<Prp name="duration" type="I" value="1865"/>
+				<Prp name="warningtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="testname" type="S" value="Soma de dois números inteiros"/>
+		<Prp name="loadtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="45768.8423128241"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="name" type="S" value="CalculadoraBDD"/>
+		<Prp name="key" type="S" value="{1182C914-1E6D-45D1-9517-A2F9089F0CD2}"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="user" type="S" value="Lucas.M"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="stop" type="D" value="45768.8423472569"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="host" type="S" value="LUCAS"/>
+	</Node>
+</Nodes>
