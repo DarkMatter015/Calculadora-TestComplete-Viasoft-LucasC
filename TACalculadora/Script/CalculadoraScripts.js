@@ -43,9 +43,9 @@ function todosOsTestes() {
   subtrair();
   multiplicar();
   dividir();
+  testarErros();
 }
 
-// Nao consegui fazer funcionar a validação Não é possível dividir por zero (somente se criasse uma função especifica para isso)
 function testarErros() {
   garantirCalculadoraAberta();
   Log.AppendFolder("🚫 Teste: Erros");

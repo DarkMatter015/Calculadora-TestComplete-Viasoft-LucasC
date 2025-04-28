@@ -82,6 +82,11 @@
 								<environments activeCloud="SWT" />
 								<children />
 							</testItem>
+							<testItem name="DivisaoPorZero" key="{4ED9CAD7-0794-494B-BF4E-D14C3157B7C8}" group="False" parallel="False" enabled="True" load="False" testMoniker="{22CA3D86-D61F-408E-AA3B-FC7799C3D566}testarErros" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
 						</children>
 					</testItem>
 				</children>
