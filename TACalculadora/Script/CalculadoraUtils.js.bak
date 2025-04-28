@@ -54,48 +54,33 @@ function pressionarBotao(botao) {
   Log.PopLogFolder();
 }
 
-//function verificarResultado(resultadoEsperado) {
-//    const resultadoObtido = Aliases.Microsoft_WindowsCalculator
-//    .Calculadora.NavView.LandmarkTarget
-//    .UIAObject("A_exibição_é_*") // mapeamento de qualquer texto
-//    .UIAObject("TextContainer")
-//    .UIAObject("NormalOutput").Text.trim();
-//
-//  if (resultadoEsperado == resultadoObtido) {
-//    Log.Message("✅ SUCESSO! Resultado correto: " + resultadoObtido);
-//  } else {
-//    Log.Error("❌ ERRO! Esperado: " + resultadoEsperado + " | Obtido: " + resultadoObtido);
-//  }
-//}
+function validarDivisaoPorZero(resultadoEsperado)
+{
+  const resultadoObtido = Aliases.Microsoft_WindowsCalculator
+    .Calculadora.NavView.LandmarkTarget
+    .UIAObject("A_exibição_é_Não_é_possível_dividir_por_zero")
+    .UIAObject("Não_é_possível_dividir_por_zero")
+    .UIAObject("Não_é_possível_dividir_por_zero").Text.Trim();
+  
+    if (resultadoEsperado == resultadoObtido) {
+      Log.Message("✅ SUCESSO! Resultado correto: " + resultadoObtido);
+    } else {
+      Log.Error("❌ ERRO! Esperado: " + resultadoEsperado + " | Obtido: " + resultadoObtido);
+    }
+}
+
 function verificarResultado(resultadoEsperado) {
-  const calc = Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget;
-  if (!calc.Exists) {
-    Log.Error("Calculadora não encontrada para verificar resultado!");
-    return;
-  }
-
-  const display = calc.UIAObject("A_exibição_é_*");
-  if (!display.Exists) {
-    Log.Error("Nenhum texto de resultado ou erro encontrado na calculadora!");
-    Log.Picture(Sys.Desktop.Picture(), "Captura de tela para depuração");
-    return;
-  }
-
-  let resultadoObtido = "";
-  if (display.Name === "A_exibição_é_Não_é_possível_dividir_por_zero") {
-    const errorText = display.UIAObject("Não_é_possível_dividir_por_zero").UIAObject("Não_é_possível_dividir_por_zero");
-    resultadoObtido = errorText.NativeUIAObject.Value.trim();
-  } else {
-    resultadoObtido = display.Text.trim();
-  }
-
-  const esperadoNormalizado = resultadoEsperado.trim();
-  if (esperadoNormalizado === resultadoObtido) {
-    Log.Message("✅ SUCESSO! Resultado correto: " + resultadoObtido);
-  } else {
-    Log.Error("❌ ERRO! Esperado: " + esperadoNormalizado + " | Obtido: " + resultadoObtido);
-    Log.Picture(Sys.Desktop.Picture(), "Captura de tela no momento do erro");
-  }
+    const resultadoObtido = Aliases.Microsoft_WindowsCalculator
+    .Calculadora.NavView.LandmarkTarget
+    .UIAObject("A_exibição_é_*") // mapeamento de qualquer texto
+    .UIAObject("TextContainer")
+    .UIAObject("NormalOutput").Text.trim();
+  
+    if (resultadoEsperado == resultadoObtido) {
+      Log.Message("✅ SUCESSO! Resultado correto: " + resultadoObtido);
+    } else {
+      Log.Error("❌ ERRO! Esperado: " + resultadoEsperado + " | Obtido: " + resultadoObtido);
+    }
 }
 
 function calcular(expressaoCompleta) {
@@ -120,7 +105,12 @@ function calcular(expressaoCompleta) {
   for (let i = 0; i < operacao.length; i++) {
     pressionarBotao(operacao[i]);
   }
-
+  
+  if(resultadoEsperado == "Não é possível dividir por zero"){
+    validarDivisaoPorZero(resultadoEsperado);
+    Log.PopLogFolder();
+    return;
+  }
   verificarResultado(resultadoEsperado);
   Log.PopLogFolder();
 }

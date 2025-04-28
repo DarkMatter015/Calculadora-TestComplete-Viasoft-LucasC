@@ -54,18 +54,33 @@ function pressionarBotao(botao) {
   Log.PopLogFolder();
 }
 
+function validarDivisaoPorZero(resultadoEsperado)
+{
+  const resultadoObtido = Aliases.Microsoft_WindowsCalculator
+    .Calculadora.NavView.LandmarkTarget
+    .UIAObject("A_exibição_é_Não_é_possível_dividir_por_zero")
+    .UIAObject("Não_é_possível_dividir_por_zero")
+    .UIAObject("Não_é_possível_dividir_por_zero").Text.trim();
+  
+    if (resultadoEsperado == resultadoObtido) {
+      Log.Message("✅ SUCESSO! Resultado correto: " + resultadoObtido);
+    } else {
+      Log.Error("❌ ERRO! Esperado: " + resultadoEsperado + " | Obtido: " + resultadoObtido);
+    }
+}
+
 function verificarResultado(resultadoEsperado) {
     const resultadoObtido = Aliases.Microsoft_WindowsCalculator
     .Calculadora.NavView.LandmarkTarget
     .UIAObject("A_exibição_é_*") // mapeamento de qualquer texto
     .UIAObject("TextContainer")
     .UIAObject("NormalOutput").Text.trim();
-
-  if (resultadoEsperado == resultadoObtido) {
-    Log.Message("✅ SUCESSO! Resultado correto: " + resultadoObtido);
-  } else {
-    Log.Error("❌ ERRO! Esperado: " + resultadoEsperado + " | Obtido: " + resultadoObtido);
-  }
+  
+    if (resultadoEsperado == resultadoObtido) {
+      Log.Message("✅ SUCESSO! Resultado correto: " + resultadoObtido);
+    } else {
+      Log.Error("❌ ERRO! Esperado: " + resultadoEsperado + " | Obtido: " + resultadoObtido);
+    }
 }
 
 function calcular(expressaoCompleta) {
@@ -90,7 +105,12 @@ function calcular(expressaoCompleta) {
   for (let i = 0; i < operacao.length; i++) {
     pressionarBotao(operacao[i]);
   }
-
+  
+  if(resultadoEsperado == "Não é possível dividir por zero"){
+    validarDivisaoPorZero(resultadoEsperado);
+    Log.PopLogFolder();
+    return;
+  }
   verificarResultado(resultadoEsperado);
   Log.PopLogFolder();
 }

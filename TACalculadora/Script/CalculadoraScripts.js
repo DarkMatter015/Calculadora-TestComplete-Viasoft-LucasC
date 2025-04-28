@@ -46,12 +46,12 @@ function todosOsTestes() {
 }
 
 // Nao consegui fazer funcionar a validação Não é possível dividir por zero (somente se criasse uma função especifica para isso)
-//function testarErros() {
-//  garantirCalculadoraAberta();
-//  Log.AppendFolder("🚫 Teste: Erros");
-//  calcular("10/0=Não é possível dividir por zero");
-//  Log.PopLogFolder();
-//}
+function testarErros() {
+  garantirCalculadoraAberta();
+  Log.AppendFolder("🚫 Teste: Erros");
+  calcular("10/0=Não é possível dividir por zero");
+  Log.PopLogFolder();
+}
 
 module.exports = {
   somar,
